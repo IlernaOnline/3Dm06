@@ -1,0 +1,63 @@
+
+@font-face {
+	font-family: "Chata";
+  	src: url("../fonts/La-chata-normal.ttf");
+}
+
+body{
+	margin:0PX;
+}
+/*
+Esta clase modifica las capas principales de la web
+*/
+#cabecera, #contenido, #pie{
+	float: left;
+	width: 98%;
+	padding: 1%;
+	min-width: 200px;
+}
+#cabecera,#pie{
+	height: 35px;
+	background: chocolate;
+}
+#contenido{
+	min-height: 470px;
+/*	background: green;*/
+}
+ul li{
+	display: block;
+	height: 27px;
+	width: 75px;
+	background: red;
+	float: left;
+	border-left:solid 2px #000000;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+/*contenido*/
+/*titulo*/
+.titulo{
+	float: left;
+	width: 90%;
+	border: solid 2px;
+	margin-left: 5%;
+}
+.titulo h1{
+	color:red;
+}
+.titulo h2{
+	color:green;
+}
+/*El texto*/
+.txt{
+	font-family: "Chata";
+}
+/*la imagen*/
+.txt, .img{
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+}
