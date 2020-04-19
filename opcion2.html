@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Opcion 1</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script type="text/javascript" src="js/funciones.js"></script>
+</head>
+<body>
+		<!--Capa de la cabecera-->
+		<div id="cabecera">
+			<div id="logo"></div>
+			<div id="menu">
+				<button onclick="menu(1)">Home</button>
+				<button onclick="menu(2)">Opcion1</button>
+				<button onclick="menu(3)">Opcion2</button>
+				<button onclick="menu(4)">Opcion3</button>
+				<button onclick="menu(5)">Opcion4</button>
+			</div>
+		</div>
+		<div id="contenido">
+			<form id="form_usuario" action="index.html" method="POST">
+				<input type="text" name="nombre" value="" placeholder="Nombre de usuario" />
+				<input type="email" name="correo" value="" placeholder="Correo de usuario" />
+				<input type="password" name="pass" value="" placeholder="Contraseña de usuario" />
+				<input type="checkbox" name="check" value="" onclick="onlyOne(this)" />
+				<input type="checkbox" name="check" value="" onclick="onlyOne(this)" />
+				<input type="checkbox" name="check" value="" onclick="onlyOne(this)" />
+				<input type="button" name="" value="Enviar" onclick="validarForm()">
+				<input type="reset" name=""  value="Cancelar">
+			</form>
+		</div>
+		<div id="pie">
+
+		</div>
+</body>
+</html>
